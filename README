@@ -1,0 +1,13 @@
+Collaborators: Jacky Wong
+               Michael Ungerer
+               Hang Gao
+
+This program creates an 11x11 hexboard and randomly fills up the hexes with a player. After the board
+is filled, a breadth-first-search is performed to find the winner.
+Should be working fine.
+In this program, we learned how to play the game hex and how to implement a hexboard as well as print it out.
+We all worked on this together and contributed equally.
+To compile, type "make all". To run the program, type "main".
+
+This program uses a 2D matrix to represent the hexboard.
+The board is printed with the overloaded << operator and the player that owns the hex is filled in.
