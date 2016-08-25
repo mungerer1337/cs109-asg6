@@ -1,7 +1,7 @@
-//Jacky Wong
-//Michael Ungerer
-//Hang Gao
-
+//Michael U.
+//Hex game
+//Persson vs Monte Carlo AI. 
+//If you are reading this and need a hint go to line 175 ;)
 
 #include <iostream>
 #include <ctime>
@@ -173,11 +173,11 @@ void hexboard::find_winner(){
    }
    for(int i = 0; i < size; ++i){                //check opposite side of board for visited node. If found, player 1 won. Else player 2 won
       if(matrix[size-1][i].get_color() == 2){
-         cout << endl << endl << "PLAYER 1 WINS!" << endl << endl << endl;
+         cout << endl << endl << "PLAYER 1 WINS! Thanks for playing :) my number is (510) 406-2115" << endl << endl << endl;
          return;
       }
    }
-   cout << endl << endl << "PLAYER 2 WINS!" << endl << endl << endl;
+   cout << endl << endl << "PLAYER 2 WINS! Thanks for playing :) my number is (510) 406-2115" << endl << endl << endl;
 
 
 }
